@@ -1,8 +1,39 @@
+body{
+    background-color: #333 ;
+    background-image: url(/public/images/diurno.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.screen{
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
 
+.content{
+    background-color: rgba(218, 212, 140, 0.637);
+    backdrop-filter: blur(5px);
+    height: 70%;
+    padding: 2%;
+    border-radius: 1rem;
+}
 
+.btn-number{
+    width: 3rem;
+    height: 4rem;
+    background-color: #f0f0f0e7;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    color: #333;
+}
