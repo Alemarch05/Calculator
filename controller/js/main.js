@@ -3,6 +3,15 @@ const form = document.getElementById('calculator-form');
 const history = document.getElementById('history');
 const screen = document.getElementById('screen');
 const buttons = document.querySelectorAll('.number');
+const toggleSwitch = document.getElementById('toggleSwitch');
+const body = document.querySelector('body');
+
+toggleSwitch.addEventListener('click', () => {
+ toggleSwitch.classList.toggle('active');
+   
+   body.classList.toggle('body-noche');
+   body.classList.toggle('body-dia');
+})
 
 
 let currentInput = "";
