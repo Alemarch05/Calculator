@@ -1,12 +1,12 @@
 .body-dia{
     background-color: #333 ;
-    background-image: url(/public/images/diurno.png);
+    background-image: url(public/images/diurno.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .body-noche{
-    background-image: url(/public/images/noctuno.png);
+    background-image: url(public/images/noctuno.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
